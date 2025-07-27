@@ -38,8 +38,12 @@ Add:
 - `GET /sanctum/csrf-cookie`
 - `POST /login`
 <p align="center">
-  <img src="https://www.maikeru-desu.quest/sanctum-bruno/4.png">
+  <img src="https://www.maikeru-desu.quest/sanctum-bruno/4-2.png">
 </p>
+<p align="center">
+  <img src="https://www.maikeru-desu.quest/sanctum-bruno/4-1.png">
+</p>
+
 
 
 ---
