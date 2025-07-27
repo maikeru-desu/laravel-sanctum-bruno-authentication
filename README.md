@@ -19,15 +19,17 @@ Start by creating your first collection in Bruno.
 Click the environment tab and add the following:
 - `base_url = http://localhost:8000`
 - `frontend_url = http://localhost:5173` (or wherever your SPA runs)
-
-> 📸 [*[Add Environment Variables]*](https://www.maikeru-desu.quest/sanctum-bruno/2.png)
+<p align="center">
+  <img src="https://www.maikeru-desu.quest/sanctum-bruno/2.png">
+</p>
 
 ---
 
 ### 3. Create Authentication Folder
 Make a folder called `Authentication` (or name it however you like) to group your auth routes.
-
-> 📸 [*[Create Folder]*](https://www.maikeru-desu.quest/sanctum-bruno/3.png)
+<p align="center">
+  <img src="https://www.maikeru-desu.quest/sanctum-bruno/3.png">
+</p>
 
 ---
 
@@ -35,8 +37,10 @@ Make a folder called `Authentication` (or name it however you like) to group you
 Add:
 - `GET /sanctum/csrf-cookie`
 - `POST /login`
+<p align="center">
+  <img src="https://www.maikeru-desu.quest/sanctum-bruno/4.png">
+</p>
 
-> 📸 [*[Add Routes]*](https://www.maikeru-desu.quest/sanctum-bruno/4.png)
 
 ---
 
@@ -56,8 +60,10 @@ if (cookieHeader) {
 🧠 **What this does:**
 - Extracts the `XSRF-TOKEN` from the `Set-Cookie` header.
 - Saves it as a Bruno environment variable called `xsrf_token`.
+<p align="center">
+  <img src="https://www.maikeru-desu.quest/sanctum-bruno/5.png">
+</p>
 
-> 📸 [*[CSRF Cookie Response]*](https://www.maikeru-desu.quest/sanctum-bruno/5.png)
 
 ---
 
@@ -78,8 +84,9 @@ if (xsrfToken) {
 🧠 **What this does:**
 - Adds the `X-XSRF-TOKEN` header to outgoing requests.
 - Sets the `Referer` to your frontend URL, mimicking a browser request.
-
-> 📸 [*[Pre Response]*](https://www.maikeru-desu.quest/sanctum-bruno/6.png)
+<p align="center">
+  <img src="https://www.maikeru-desu.quest/sanctum-bruno/6.png">
+</p>
 
 ---
 
@@ -111,8 +118,10 @@ Example response from `/api/user`:
   }
 }
 ```
+<p align="center">
+  <img src="https://www.maikeru-desu.quest/sanctum-bruno/8.png">
+</p>
 
-> 📸 [*[Profile]*](https://www.maikeru-desu.quest/sanctum-bruno/2.png)
 
 ---
 
