@@ -9,7 +9,9 @@ Bruno is a powerful Postman alternative, and with this guide, you can test your 
 
 ### 1. Create Your Collection
 Start by creating your first collection in Bruno.  
-> 📸 [*[Create Collection]*](https://www.maikeru-desu.quest/sanctum-bruno/1_create_collection.png)
+<p align="center">
+  <img src="https://www.maikeru-desu.quest/sanctum-bruno/1_create_collection.png" width="200">
+</p>
 
 ---
 
