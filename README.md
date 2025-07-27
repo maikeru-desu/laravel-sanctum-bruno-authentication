@@ -2,6 +2,9 @@
 # 🔐 Laravel Sanctum SPA Auth with Bruno
 
 Bruno is a powerful Postman alternative, and with this guide, you can test your Laravel Sanctum-authenticated SPA APIs just like you'd do in Postman.
+<p align="center">
+  <img src="https://www.maikeru-desu.quest/sanctum-bruno/logo.png">
+</p>
 
 ---
 
