@@ -51,7 +51,6 @@ In the **Post Response Script** of your CSRF route, add:
 ```js
 const cookieHeader = res.headers['set-cookie'];
 if (cookieHeader) {
-  console.log(cookieHeader[0])
   const xsrfToken = cookieHeader[0].match(/XSRF-TOKEN=([^;]+)/);
   bru.setEnvVar('xsrf_token', xsrfToken[1]);
 }
